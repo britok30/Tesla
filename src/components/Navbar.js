@@ -31,6 +31,11 @@ class Navbar extends Component {
 }
 
 const Nav = styled.nav`
+    .navbar {
+        background: transparent;
+        color: var(--teslaBlack) !important;
+    }
+
     .tesla {
         margin-top: 1rem;
     }
