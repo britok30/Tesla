@@ -19,7 +19,7 @@ body {
     font-family: "Montserrat", sans-serif !important;
     background: var(--teslaDarkGrey) !important;
     color: var(--teslaWhite) !important;
-    font-size: 1.2rem;
+    font-size: 1.5rem !important;
 }
 
 .text-title {
@@ -29,7 +29,9 @@ body {
 }
 
 .text-red {
-    color: var(--teslaRed)
+    color: var(--teslaRed);
 }
 
-
+.tesla {
+    width: 5rem;
+}
