@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+:root {
+    --teslaRed: #cc0000;
+    --teslaBlack: #000;
+    --teslaDarkGrey: #141414;
+    --teslaWhite: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+    font-size: 62.5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    font-family: "Montserrat", sans-serif !important;
+    background: var(--teslaDarkGrey) !important;
+    color: var(--teslaWhite) !important;
+    font-size: 1.2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.text-title {
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-red {
+    color: var(--teslaRed)
 }
+
+
