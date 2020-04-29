@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import logo from "../logo.png";
 import { Button } from "./Button";
+import styled from "styled-components";
 
 class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand px-sm-5">
+            <Nav className="navbar navbar-expand px-sm-5">
                 <Link to="/">
                     <img src={logo} alt="tesla" className="tesla" />
                 </Link>
@@ -24,9 +25,19 @@ class Navbar extends Component {
                         </span>
                     </Button>
                 </Link>
-            </nav>
+            </Nav>
         );
     }
 }
+
+const Nav = styled.nav`
+    .tesla {
+        margin-top: 1rem;
+    }
+    .nav-link {
+        color: var(--teslaWhite) !important;
+        text-transform: uppercase;
+    }
+`;
 
 export default Navbar;
