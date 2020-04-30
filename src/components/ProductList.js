@@ -2,18 +2,14 @@ import React, { Fragment, Component } from "react";
 import Product from "./Product";
 import Title from "./Title";
 import { ProductConsumer } from "../context";
-import { teslaProducts } from "../data";
 
 class ProductList extends Component {
-    state = {
-        products: teslaProducts,
-    };
     render() {
         return (
             <Fragment>
-                <div className="py-5">
+                <div className="products">
                     <div className="container">
-                        <Title title="Vehicles" />
+                        <Title title="Vehicles + Products" />
 
                         <div className="row">
                             <ProductConsumer>
