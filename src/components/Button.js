@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Button = styled.button`
-    background: var(--teslaRed);
+    background: transparent;
     color: var(--teslaWhite);
     border-radius: 3px;
     transition: all 0.2s ease-in-out;
